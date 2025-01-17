@@ -9,7 +9,7 @@ class Utils:
     pass
   def get_dlai_api_key(self):
     _ = load_dotenv(find_dotenv())
-    return os.getenv("j3HETAexJO0XHcYfDgNjTNUmAJiTIg")
+    return os.getenv("api_key")
     
   def get_dlai_url(self):
     _ = load_dotenv(find_dotenv())
