@@ -41,7 +41,6 @@ This document outlines the process and methodology for parsing various data form
 
 2. **PDF, Images**
 	- **Method:** Document Image Analysis (DIA), document layout detection using visual information.
-	- **Chunk Rules:**
 	  - **Document Layout Detection:**
 	    - **Method:** Object detection model (e.g., YOLOX, Detectron2).
 	    - **Process:**
