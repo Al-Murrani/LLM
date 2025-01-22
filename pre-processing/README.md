@@ -17,6 +17,7 @@ Document analysis to normalise output (detection and chunk):
 	Chunk Rules: structure On tags (h1, p), unstructured data such as single sentence in a p tag that is capital is more like to be a title
 	Preprocessing output: Document Elements such as title, narrative text, list item, table, image, useful for RAG filtering and chunking.  Element metadata such as file name, file type, page number, section 
 Example of JSON:
+```json
 {
 	"type": "Document type",
 	"element_id": 1,
@@ -29,7 +30,7 @@ Example of JSON:
 		
 		}
 }
-
+```
 2.
 	Input format: PDF, images
 	Method: Document Image Analysis (DIA), document layout detection using visual information
