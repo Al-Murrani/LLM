@@ -57,5 +57,6 @@ Problems:
 - Too many matches
 - Most recent information 
 - Loss of important information 
+
 To solve the problems:
 - Hybrid search semantic search + filtering on metadata
