@@ -1,3 +1,5 @@
+https://unstructured.io/
+
 Parse many data format require normalisation 
 Maintain record of original data and enrich it as metadata
 Improve down stream RAG result hyper search, chunk content more meaningful with semantic search 
