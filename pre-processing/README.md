@@ -6,8 +6,8 @@ This document outlines the process and methodology for parsing various data form
 1. **HTML, Word, Markdown**
 	- **Method:** Rules-based parsers utilising formatting information.
 	- **Chunk Rules:**
-  		- Structured data: Based on tags (e.g., `<h1>`, `<p>`).
-  		- Unstructured data: Single sentences in a `<p>` tag, especially if capitalized, are likely titles.
+  		- Structured data: Based on tags (e.g., h1, p).
+  		- Unstructured data: Single sentences in a p tag, especially if capitalized, are likely titles.
 	- **Output:**
   		- Document elements: Title, narrative text, list items, tables, images.
   		- Element metadata: File name, file type, page number, section, etc.
